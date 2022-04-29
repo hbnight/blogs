@@ -1,8 +1,8 @@
 $theme:#a82cff;
 $themeHover:#9304fa;
+$theme_bg: rgb(215 215 215);
 
 @mixin theme_btn{
-  background: $theme;
   &:hover{
     background: $themeHover;
   }
