@@ -14,6 +14,7 @@ export default [
   {
     path: '/',
     component: Layout,
+    redirect:'/essay',
     children: [
       {
         path: 'home',
@@ -27,6 +28,7 @@ export default [
       {
         path:'essay',
         component: Essay,
+        redirect:'/essay/list',
         children:[
           {
             path:'create',
